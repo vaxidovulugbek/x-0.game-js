@@ -31,7 +31,9 @@
 }
 
  */
-
+.list {
+  display: none;
+}
 
 
 
@@ -48,11 +50,11 @@ section {
   /* margin: 10px auto; */
 }
 
-.game--container {
+.container {
   display: grid;
   grid-template-columns: repeat(3, auto);
   width: 540px;
-  margin: 0 auto;
+  margin: 100px auto;
   /* color: #04c0b2; */
 }
 
@@ -101,7 +103,7 @@ section {
 }
 
 .holat {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 .gameholati {
