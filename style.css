@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* 
 .list {
   list-style: none;
   display: flex;
@@ -29,25 +30,87 @@
   opacity: 0;
 }
 
+ */
 
 
 
 
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+section {
+  text-align: center;
+}
+
+.game--title {
+  font-size: 100px;
+  /* margin: 10px auto; */
+}
+
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 540px;
+  margin: 0 auto;
+  /* color: #04c0b2; */
+}
+
+.cell {
+  width: 150px;
+  height: 150px;
+  /* border: 2px solid #ecd7ba; */
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+  font-weight: 800;
+  margin: 8px;
+  background-color: #78BDC4;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game--status {
+  font-size: 40px;
+  color: #000;
+  margin: 20px auto;
+}
+
+.game--restart {
+  background-color: #1d1c1b;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
 
 
+.gameholati {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.503);
+}
 
+.holat {
+  margin-top: 25%;
+}
 
+.gameholati {
+  display: none;
+}
 
-
-
-
-
-
-
-
-
-
+.db {
+  display: block;
+}
 
 
 
